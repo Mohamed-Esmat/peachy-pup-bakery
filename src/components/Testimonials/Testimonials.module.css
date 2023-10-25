@@ -1,0 +1,128 @@
+.testimonialsSection {
+  background-color: #c98a40;
+  background-image: url('../../assets/testimonials-bg.png');
+  background-size: cover;
+  object-fit: cover;
+  color: #fff;
+  padding-top: 5.375rem;
+  padding-bottom: 3.125rem;
+  text-align: center;
+}
+
+.sectionTitle {
+  /*  */
+  color: #fff;
+  text-align: center;
+  font-family: Sen;
+  font-size: 9rem;
+  font-weight: 800;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+}
+
+.testimonialsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  gap: 3.125rem; /* 50px */
+  margin-top: 5rem;
+  margin-bottom: 3.125rem;
+}
+
+/* RESPONSIVE */
+/* Media query for large desktops and high-resolution displays */
+@media only screen and (min-width: 1600px) {
+}
+
+/* Media query for standard laptops and desktops */
+@media only screen and (max-width: 1599px) {
+}
+
+/*  */
+@media only screen and (max-width: 1450px) {
+  .sectionTitle {
+    /*  */
+    font-size: 6rem;
+  }
+}
+
+/* Media query for small laptops and desktops */
+@media only screen and (max-width: 1199px) {
+  .sectionTitle {
+    /*  */
+    font-size: 5rem;
+  }
+
+  .testimonialsContainer {
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  .sectionTitle {
+    /*  */
+    font-size: 4.5rem;
+  }
+
+  .testimonialsContainer {
+    gap: 2.5rem;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1000px) {
+  .sectionTitle {
+    /*  */
+    font-size: 4rem;
+  }
+
+  .testimonialsContainer {
+    gap: 2.3rem;
+  }
+}
+
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  .sectionTitle {
+    /*  */
+
+    font-size: 4.3rem;
+    overflow: hidden;
+  }
+
+  .testimonialsContainer {
+    gap: 2rem;
+  }
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  .sectionTitle {
+    /*  */
+    font-size: 2.8rem;
+  }
+
+  .testimonialsContainer {
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+  .sectionTitle {
+    /*  */
+    overflow: initial;
+    font-size: 2rem;
+  }
+}
+/* 322px */
+@media screen and (max-width: 20.125em) {
+  .sectionTitle {
+    overflow: hidden;
+    font-size: 1.6rem;
+  }
+}

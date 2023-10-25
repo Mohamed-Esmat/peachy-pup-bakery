@@ -1,0 +1,280 @@
+.contactUs {
+  background-color: #fff;
+  text-align: center;
+  padding: 3.125rem 0;
+}
+/* 
+.container {
+  width: 63%;
+  margin: 0 auto;
+} */
+
+.contactContainer {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contactTitle {
+  color: #c98a40;
+  text-align: center;
+  font-family: Sen;
+  font-size: 9rem;
+  font-weight: 800;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+}
+
+.contactForm {
+  flex: 2;
+  margin-top: 2rem;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formGroup {
+  margin-bottom: 0.625rem; /*10px*/
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  margin: 5px 0;
+
+  /*  */
+  /* width: 70%; */
+  width: 70%;
+  border-radius: 3.8125rem; /*61px*/
+  background: #ffd39f;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ffaa0068;
+  box-shadow: 0 0 5px #ffaa0068;
+}
+
+.invalid {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.formGroup p {
+  color: #cf2222;
+}
+
+.sendButton {
+  /*  */
+  background-color: #fff;
+  color: #000;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  border-radius: 3.8125rem; /* 61px */
+  border: 3px solid #c98a40;
+  padding: 1rem 3.8125rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sendButton:hover {
+  background-color: #c98a40;
+  color: #fff;
+}
+
+.contactInfo {
+  flex: 1;
+  text-align: left;
+
+  /*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.contactInfo-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.contactInfo-container span svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.contactInfo-container span p {
+  color: var(--Gray-1, #333);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+/*  */
+/* RESPONSIVE */
+/* Media query for large desktops and high-resolution displays */
+@media only screen and (min-width: 1600px) {
+}
+
+/* Media query for standard laptops and desktops */
+@media only screen and (max-width: 1599px) {
+}
+
+/*  */
+@media only screen and (max-width: 1450px) {
+  .contactTitle {
+    font-size: 7.5rem;
+  }
+}
+
+/* Media query for small laptops and desktops */
+@media only screen and (max-width: 1199px) {
+  .contactTitle {
+    font-size: 6rem;
+  }
+}
+
+/* 1142px */
+@media screen and (max-width: 71.375em) {
+  .contactUs {
+    /* NOT CHANGED */
+    padding: 3.125rem 0;
+  }
+
+  .contactTitle {
+    font-size: 4.5rem;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1000px) {
+  .contactTitle {
+    font-size: 4rem;
+  }
+}
+
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  .contactUs {
+    padding: 3rem 0;
+  }
+
+  .contactTitle {
+    font-size: 6rem;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactForm {
+    margin-bottom: 2rem;
+  }
+
+  .contactInfo {
+    align-items: center;
+  }
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  .contactUs {
+    padding: 2.5rem 0;
+  }
+
+  .contactTitle {
+    font-size: 4rem;
+  }
+
+  .contactForm {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+  .contactTitle {
+    font-size: 3rem;
+  }
+
+  .contactForm {
+    margin-bottom: 1.5rem;
+  }
+
+  .formGroup {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .formGroup input {
+    width: 100%;
+  }
+
+  .sendButton {
+    margin-top: 1rem;
+  }
+}
+
+/* 450px */
+@media screen and (max-width: 28.125em) {
+  .contactUs {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .contactTitle {
+    font-size: 3rem;
+  }
+
+  .contactContainer {
+    width: 100%;
+  }
+
+  input {
+    margin: 0.32rem 0;
+    width: 80%;
+    font-size: 0.8rem;
+    padding-left: 1.3rem;
+  }
+
+  .sendButton {
+    font-size: 1.125rem;
+    padding: 0.8rem 2.8125rem;
+  }
+
+  .contactInfo-container {
+    gap: 0.8rem;
+  }
+
+  .contactInfo-container span svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .contactInfo-container span p {
+    font-size: 0.775rem;
+  }
+}
+
+/* 322px */
+@media screen and (max-width: 20.125em) {
+  .contactTitle {
+    font-size: 2.4rem;
+  }
+
+  .contactInfo-container p {
+    font-size: .7rem;
+  }
+}

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 63.7%;
+  margin: 0 auto;
+}
+
+/* RESPONSIVE */
+/* Media query for large desktops and high-resolution displays */
+@media only screen and (min-width: 1600px) {
+}
+
+/* Media query for standard laptops and desktops */
+@media only screen and (max-width: 1599px) {
+}
+
+/*  */
+@media only screen and (max-width: 1450px) {
+  /* Header Section */
+.container {
+  width: 65%;
+}
+}
+
+/* Media query for small laptops and desktops */
+@media only screen and (max-width: 1199px) {
+  .container {
+    /* width: 80%; */
+  }
+}
+
+@media screen and (max-width: 1142px) {
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 991px) {
+  .container {
+    /* width: 75%; */
+  }
+}
+
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+}
+/* 290px */
+@media screen and (max-width: 18.125em) {
+
+}

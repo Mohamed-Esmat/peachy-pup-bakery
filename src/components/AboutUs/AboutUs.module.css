@@ -1,0 +1,253 @@
+.aboutUs {
+  background: linear-gradient(to right, #c98a40 60%, #fff 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem; /*20px*/
+  position: relative;
+}
+
+/* Content container */
+.content {
+  width: 100%;
+  display: flex;
+  gap: 3.125rem; /* 50px */
+}
+
+/* Left part of the section */
+.leftPart {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+/* Right part of the section */
+.rightPart {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem; /*10px*/
+  overflow: hidden;
+}
+
+/* Heading for "About Us" */
+.heading {
+  /*  */
+  color: #fff;
+  font-family: Sen;
+  font-size: 9rem;
+  font-weight: 800;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+}
+
+/* Paragraph */
+.paragraph {
+  /*  */
+  color: #fff;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  line-height: 144.444%; /* 26px */
+  margin: 2rem 0;
+}
+
+/* Contact button */
+
+/* Image in the right part */
+.rightPart img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RESPONSIVE */
+/* Media query for large desktops and high-resolution displays */
+@media only screen and (min-width: 1600px) {
+}
+
+/* Media query for standard laptops and desktops */
+@media only screen and (max-width: 1599px) {
+}
+
+/*  */
+@media only screen and (max-width: 1450px) {
+  .aboutUs {
+    background: linear-gradient(to right, #c98a40 65%, #fff 35%);
+  }
+
+  /* Content container */
+  .content {
+    gap: 3rem;
+  }
+
+  /* Right part of the section */
+  .rightPart {
+    /* NOT CHANGED */
+    border-radius: 0.625rem; /*10px*/
+    overflow: hidden;
+  }
+
+  /* Heading for "About Us" */
+  .heading {
+    /*  */
+    font-size: 6rem;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /*  */
+    font-size: 1.15rem;
+    margin: 0rem 0;
+  }
+}
+
+/* Media query for small laptops and desktops */
+@media only screen and (max-width: 1199px) {
+  /* Content container */
+  .content {
+    gap: 2.5rem;
+  }
+
+  /* Heading for "About Us" */
+  .heading {
+    /*  */
+    font-size: 5rem;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /*  */
+    font-size: 1rem;
+    margin: 0.8rem 0;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  /* Content container */
+  .content {
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+
+  /* Heading for "About Us" */
+  .heading {
+    /*  */
+    font-size: 4.5rem;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /*  */
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1000px) {
+  /* Content container */
+  .content {
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+
+  /* Heading for "About Us" */
+  .heading {
+    /*  */
+    font-size: 4rem;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /*  */
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  .aboutUs {
+    /* CHANGED */
+    background: #c98a40;
+  }
+
+  /* Content container */
+  .content {
+    /* CHANGED */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Left part of the section */
+  .leftPart {
+    /* CHANGED */
+    width: 100%;
+  }
+
+  /* Right part of the section */
+  .rightPart {
+    /* CHANGED */
+    width: 80%;
+  }
+
+  /* Heading for "About Us" */
+  .heading {
+    /* CHANGED */
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /* CHANGED */
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  /* Heading for "About Us" */
+  .heading {
+    /* CHANGED */
+    font-size: 4rem;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /* CHANGED */
+    font-size: .9rem;
+    margin: 2rem 0;
+  }
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+  /* Heading for "About Us" */
+  .heading {
+    /* CHANGED */
+    font-size: 3rem;
+  }
+
+  /* Paragraph */
+  .paragraph {
+    /* CHANGED */
+    width: 125%;
+    font-size: .8rem;
+    margin: 2rem 0;
+  }
+}
+/* 322px */
+@media screen and (max-width: 20.125em) {
+  /* Contact button */
+  .contactButton {
+    /*  */
+    font-size: 0.6rem;
+  }
+}

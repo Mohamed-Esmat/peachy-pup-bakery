@@ -1,0 +1,134 @@
+.testimonial {
+  background: #fff;
+  padding: 1.25rem 3.125rem;
+  text-align: left;
+  border-radius: 1.875rem; /* 30px */
+}
+
+.author {
+  color: #c98a40;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 150%; /* 24px */
+}
+
+.testimonialText {
+  color: var(--Gray-1, #333);
+  font-size: 0.875rem; /*14px*/
+  font-weight: 400;
+  line-height: 142.857%; /* 20px */
+  margin-top: 0.625rem; /*10px*/
+  margin-bottom: 1.25rem; /*20*/
+  overflow: hidden;
+}
+
+.starRating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.star {
+  color: #f5bd00;
+}
+
+/* RESPONSIVE */
+/* Media query for large desktops and high-resolution displays */
+@media only screen and (min-width: 1600px) {
+}
+
+/* Media query for standard laptops and desktops */
+@media only screen and (max-width: 1599px) {
+}
+
+/*  */
+@media only screen and (max-width: 1450px) {
+  .testimonial {
+    padding: 1.25rem 3rem;
+  }
+}
+
+/* Media query for small laptops and desktops */
+@media only screen and (max-width: 1199px) {
+  .testimonial {
+    padding: 1rem 2.7rem;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  .testimonial {
+    padding: 1rem 2.3rem;
+  }
+
+  .testimonialText {
+    font-size: 0.8rem;
+  }
+
+  .starRating {
+    gap: 0.1rem;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1000px) {
+  .testimonial {
+    padding: 1rem 2.3rem;
+  }
+
+  .author {
+    font-size: 0.9rem;
+  }
+
+  .testimonialText {
+    font-size: 0.6rem;
+  }
+}
+
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  .testimonial {
+    padding: 0.9rem 2rem;
+  }
+
+  .author {
+    /* NOT CHANGED */
+    font-size: 0.8rem;
+  }
+
+  .testimonialText {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.9rem;
+  }
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  .author {
+    /* NOT CHANGED */
+    font-size: 1rem;
+  }
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+  .testimonial {
+    padding: 1rem 1.5rem;
+  }
+}
+/* 322px */
+@media screen and (max-width: 20.125em) {
+  .testimonial {
+    padding: 0.9rem 2rem;
+  }
+
+  .author {
+    /* NOT CHANGED */
+    font-size: 0.7rem;
+  }
+
+  .testimonialText {
+    font-size: 0.6rem;
+  }
+}

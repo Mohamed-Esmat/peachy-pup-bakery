@@ -1,0 +1,93 @@
+.button {
+  border-radius: 2rem;
+  background: #fdba10;
+  cursor: pointer;
+  color: #fff;
+  display: inline-block;
+  border: none;
+
+  text-align: center;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 900;
+  line-height: 133.333%; /* 24px */
+  text-transform: uppercase;
+  padding: 1.125rem 2.375rem;
+}
+
+/* RESPONSIVE */
+/* Media query for large desktops and high-resolution displays */
+@media only screen and (min-width: 1600px) {
+}
+
+/* Media query for standard laptops and desktops */
+@media only screen and (max-width: 1599px) {
+}
+
+/*  */
+@media only screen and (max-width: 1450px) {
+  .button {
+    font-size: 1rem;
+  }
+}
+
+/* Media query for small laptops and desktops */
+@media only screen and (max-width: 1199px) {
+  .button {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1142px) {
+  .button {
+    font-size: 0.8rem;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (max-width: 1000px) {
+  .button {
+    font-size: 0.7rem;
+  }
+}
+
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  /* Contact button */
+  .button {
+    /*  */
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  }
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  /* Contact button */
+  .button {
+    /*  */
+    font-size: 0.8rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  }
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+  /* Contact button */
+  .button {
+    /*  */
+    font-size: 0.7rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+  }
+}
+/* 322px */
+@media screen and (max-width: 20.125em) {
+  /* Contact button */
+  .button {
+    font-size: 0.6rem;
+    margin: 0 auto;
+  }
+}
