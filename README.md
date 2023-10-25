@@ -1,6 +1,6 @@
 # PEACHY PUP BAKERY
 
-![Project Screenshot]([screenshot.png](https://res.cloudinary.com/tawfeer/image/upload/v1698274116/peachy-pup-bakery_hjkuak.png))
+![Project Screenshot](https://res.cloudinary.com/tawfeer/image/upload/v1698274116/peachy-pup-bakery_hjkuak.png)
 
 ## Table of Contents
 
